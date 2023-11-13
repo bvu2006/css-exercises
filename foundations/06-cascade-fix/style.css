@@ -3,40 +3,59 @@ body {
 }
 
 .para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+/*.small-para {*/
+.para.small-para {
+  /*color: hsl(0, 0%, 0%);*/
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
-  font-weight: 800;
+  /*font-weight: 800;*/
 }
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
+/*.confirm {
+  background: green;*/
+#confirm-button {
+  background-color: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+#cancel-button {
+  background-color: rgb(255, 255, 255);
+} 
+
+#confirm-button,
+#cancel-button {
+  font-size: 20px;
+}
+/*.button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
-}
+} */
 
-.child {
-  color: rgb(0, 0, 0);
+/*.child {*/
+div.text .child {
+  /*color: rgb(0, 0, 0);*/
   font-weight: 800;
   font-size: 14px;
 }
 
 div.text {
-  color: rgb(0, 0, 0);
+  /*color: rgb(0, 0, 0);*/
   font-size: 22px;
   font-weight: 100;
 }
+
+div.text,
+div.text .child {
+  color: rgb(0, 0, 0);
+}
+
+
